@@ -66,56 +66,37 @@ Das Widget auf dem Homescreen des iPhones wird vom Betriebssystem in festen Zeit
 Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folgenden Aufbau hat:
 
 ##### JSON (Monitoring)
-....
+
 {
+    
     "jsonVersion": 1,
     "Timestamp": "2020-12-28 23:32:53",
     "Production_W": 0,
     "Consumption_W": 330,
- 
-  "Pac_total_W": -5,
+    "Pac_total_W": -5,
+    "GridFeedIn_W": -336,
+    "RSOC": 5,
+    "USOC": 0,
+    "SystemStatus": "OnGrid",
+    "BatteryCharging": false,
+    "BatteryDischarging": false,
+    "cyclecount": "795",
+    "minimumcelltemperature": "26.35",
+    "maximumcelltemperature": "28.15",
+    "stateofhealth": "93.3",
 
-  "GridFeedIn_W": -336,
-
-  "RSOC": 5,
-
-  "USOC": 0,
-
-  "SystemStatus": "OnGrid",
-
-  "BatteryCharging": false,
-
-  "BatteryDischarging": false,
-
-  "cyclecount": "795",
-
-  "minimumcelltemperature": "26.35",
-
-  "maximumcelltemperature": "28.15",
-
-  "stateofhealth": "93.3",
-
-  "PV_Reduction_states": {
-
-    "PV_Reduction_1": 0,
-
-    "PV_Reduction_2": 0
-  },
-
-  "Eclipse_Led": {
-
-    "Pulsing_White": true,
-
-    "Pulsing_Orange": false,
-
-    "Solid_Red": false,
-
-    "Pulsing_Green": false
-
-  }
-
+    "PV_Reduction_states": {
+        "PV_Reduction_1": 0,
+        "PV_Reduction_2": 0
+        },
+    "Eclipse_Led": {
+        "Pulsing_White": true,
+        "Pulsing_Orange": false,
+        "Solid_Red": false,
+        "Pulsing_Green": false
+        }
 }
-....
+        
 ## Changelog
 
 2020/12/29: sonnenBatterie V3.0 (Widget) init
