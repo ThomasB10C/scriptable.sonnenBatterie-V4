@@ -84,6 +84,7 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
     "minimumcelltemperature": "26.35",
     "maximumcelltemperature": "28.15",
     "stateofhealth": "93.3",
+    "selfConsumptionRelay": false,
 
     "PV_Reduction_states": {
         "PV_Reduction_1": 0,
