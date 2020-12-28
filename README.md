@@ -1,4 +1,4 @@
-#### scriptable.sonnenBatterie V2.0
+#### scriptable.sonnenBatterie V3.0
 ![sbWidget](sb1.jpeg)
 
 # sonnenBatterie-Widget
