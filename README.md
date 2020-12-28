@@ -105,6 +105,7 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
 
     "PV_Reduction_2": 0
   },
+
   "Eclipse_Led": {
 
     "Pulsing_White": true,
