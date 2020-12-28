@@ -45,7 +45,7 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 1. **IP-Adresse**: Gültige IP-Adresse der sonnenBatterie, über die die Batterie im LAN zu erreichen ist, in der Form 999:999:999:99
 2. **Token**: Gültiger Token für den Zugriff auf die REST-API der sonnenBatterie. Dieser kann dem Dashboard der Batterie, Menü 'Softwareintegration' entnommen werden
 3. **TimeoutInterval**: Zeit für den Abbruch der API-Abfrage, wenn keine Antwort zurück kommt, Standard = 1 Sekunde.
-4. **KZ: FileManagerMode**: Parameter für die Speicherung der temporären Daten im iPhone-Speicher (LOKAL) oder in der Cloud (iCLOUD), Standard = ICLOUD
+4. **FileManagerMode**: Parameter für die Speicherung der temporären Daten im iPhone-Speicher (LOKAL) oder in der Cloud (iCLOUD), Standard = ICLOUD
 
 ## API-Schnittstellen
 
@@ -67,6 +67,7 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
 
 ##### JSON (Monitoring)
 
+...
 {
 
     "jsonVersion": 1,
