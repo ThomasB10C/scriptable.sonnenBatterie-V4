@@ -66,8 +66,9 @@ Das Widget auf dem Homescreen des iPhones wird vom Betriebssystem in festen Zeit
 Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folgenden Aufbau hat:
 
 ##### JSON (Monitoring)
-
+....
 {
+
   "jsonVersion": 1,
 
   "Timestamp": "2020-12-28 23:32:53",
@@ -99,17 +100,25 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
   "stateofhealth": "93.3",
 
   "PV_Reduction_states": {
+
     "PV_Reduction_1": 0,
+
     "PV_Reduction_2": 0
   },
-  
   "Eclipse_Led": {
+
     "Pulsing_White": true,
+
     "Pulsing_Orange": false,
+
     "Solid_Red": false,
+
     "Pulsing_Green": false
+
   }
+
 }
+....
 ## Changelog
 
 2020/12/29: sonnenBatterie V3.0 (Widget) init
