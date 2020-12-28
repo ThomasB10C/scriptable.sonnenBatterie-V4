@@ -36,7 +36,7 @@ Die folgenden Daten werden im Widget dargestellt:
 - **999**⤒ - Stand der vollständigen Ladezyklen der sonnenBatterie (Zykluszähler)
 - **23,45º** -**25,77º** - Temperaturwerte der Zellen, minimaler Temperaturwert, maximaler Temperaturwert
 
-Zur Beachtung: Die Betriebsdaten der Batterie werden (zurzeit) nur angezeigt, wenn sich das iPhone im Empfangsbereich des WLAN befindet.
+Zur Beachtung: Die Aktualisierung der Betriebsdaten der Batterie kann (zurzeit) nur dann durchgeführt werden, wenn sich das iPhone im Empfangsbereich des WLAN befindet. Sollte die Firma sonnen jemals die erforderlichen iCloud-Daten der Batterien freischalten, dann wird das Widget dafür umgebaut.
 
 ## Settings, Parameter
 
