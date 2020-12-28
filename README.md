@@ -65,9 +65,8 @@ Das Widget auf dem Homescreen des iPhones wird vom Betriebssystem in festen Zeit
 
 Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folgenden Aufbau hat:
 
-##### JSON (Monitoring)
+##### JSON - Monitoring-Datei
 
-...
 {
 
     "jsonVersion": 1,
