@@ -68,12 +68,9 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
 ##### JSON (Monitoring)
 ....
 {
-
     "jsonVersion": 1,
     "Timestamp": "2020-12-28 23:32:53",
-
     "Production_W": 0,
-
     "Consumption_W": 330,
  
   "Pac_total_W": -5,
