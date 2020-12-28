@@ -11,28 +11,28 @@ Das Widget V3.0 dient dem Monitoring der sonnenBatterien Eco 8.0 und SB10. Es fr
 
 Die folgenden Daten werden im Widget dargestellt:
 
-_1. Zeile_
+**1. Zeile**
 - 🔅/☁️ - Status für die gestartete Produktion/Erzeugung der PV-Anlage On/Off
 - 19:44 - Uhrzeit des letzten Datenupdates der Abfrage der sonnenBatterie (Timestamp)
 - Online/⚡️Offline - Status der Verbindung der sonnenBatterie zum Internet (Status der Eclipse)
 
-2. Zeile
+**2. Zeile**
 - Name des Scriptes
 
-3. Zeile
+**3. Zeile**
 - **99% ↓↑** - Ladezustand der sonnenBatterie mit Trendanzeige
 
-4. bis 7. Zeile
+**4. bis 7. Zeile**
 - **Produktion** in kW, Erzeugung der PV-Anlage
 - **Verbrauch** in kW, Verbrauch im Haus
 - **Einspeisung/Bezug** in kW, die Anzeige wechselt zwischen Einspeisung und Bezug, abhängig vom Status
 - **Ladung/Entladung** in kW, die Anzeige wechselt zwischen Ladung und Entladung, abhängig vom Status
 
-8. Zeile
+**8. Zeile**
 - **OnGrid/⚡️OffGrid** - Status der Verbindung der sonnenBatterie zum Stromnetz
 - **R1**:Off/On **R2**:Off/On - Status der Abregelung der Limitstufe1 (Reduction1) und der Limitstufe2 (Reduction2)
 
-9. Zeile
+**9. Zeile**
 - **999**⤒ - Stand der vollständigen Ladezyklen der sonnenBatterie (Zykluszähler)
 - **23,45º** -**25,77º** - Temperaturwerte der Zellen, minimaler Temperaturwert, maximaler Temperaturwert
 
