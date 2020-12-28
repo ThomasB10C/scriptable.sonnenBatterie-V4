@@ -11,7 +11,7 @@ Das Widget V3.0 dient dem Monitoring der sonnenBatterien Eco 8.0 und SB10. Es fr
 
 Die folgenden Daten werden im Widget dargestellt:
 
-1. Zeile
+_1. Zeile_
 - 🔅/☁️ - Status für die gestartete Produktion/Erzeugung der PV-Anlage On/Off
 - 19:44 - Uhrzeit des letzten Datenupdates der Abfrage der sonnenBatterie (Timestamp)
 - Online/⚡️Offline - Status der Verbindung der sonnenBatterie zum Internet (Status der Eclipse)
