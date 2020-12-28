@@ -33,7 +33,7 @@ Die folgenden Daten werden im Widget dargestellt:
 - **R1**:Off/On **R2**:Off/On - Status der Abregelung der Limitstufe1 (Reduction1) und der Limitstufe2 (Reduction2)
 
 9. Zeile
-- **999**⤒ - Stand des Zykluszählers der Ladezyklen der sonnenBatterie
+- **999**⤒ - Stand der vollständigen Ladezyklen der sonnenBatterie (Zykluszähler)
 - **23,45º** -**25,77º** - Temperaturwerte der Zellen, minimaler Temperaturwert, maximaler Temperaturwert
 
 Zur Beachtung: Die Betriebsdaten der Batterie werden (zurzeit) nur angezeigt, wenn sich das iPhone im Empfangsbereich des WLAN befindet.
