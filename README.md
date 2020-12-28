@@ -30,7 +30,7 @@ Die folgenden Daten werden im Widget dargestellt:
 
 8. Zeile
 - **OnGrid/⚡️OffGrid** - Status der Verbindung der sonnenBatterie zum Stromnetz
-- **R1:Off/On R2:Off/On** - Status der Abregelung der Limitstufe1 (Reduction1) und der Limitstufe2 (Reduction2)
+- **R1**:Off/On **R2**:Off/On - Status der Abregelung der Limitstufe1 (Reduction1) und der Limitstufe2 (Reduction2)
 
 9. Zeile
 - **999**⤒ - Stand des Zykluszählers der Ladezyklen der sonnenBatterie
