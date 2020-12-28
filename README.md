@@ -22,7 +22,7 @@ Die folgenden Daten werden im Widget dargestellt:
 3. Zeile
 - **99% ↓↑** - Ladezustand der sonnenBatterie mit Trendanzeige
 
-4. - 7. Zeile
+4. bis 7. Zeile
 - **Produktion** in kW, Erzeugung der PV-Anlage
 - **Verbrauch** in kW, Verbrauch im Haus
 - **Einspeisung/Bezug** in kW, die Anzeige wechselt zwischen Einspeisung und Bezug, abhängig vom Status
