@@ -59,7 +59,7 @@ Der Offline-Status der Batterie wird mit dem folgenden Bild angezeigt
 OnGrid/OffGrid - die Trennung von Stromnetz wird in der vorletzten Zeile angezeigt, die ANzeige wechselt von "Grid:1" auf "Grid:0"
 
 R1/R2: 0/1 - das Widget prüft auch den Status des Reduction-Relais R1 und R2, R1/R2: "0" = Off, "1"= On
-![]() - Im Bild wurde die beiden Relais aktuell auf Abregelung= On gesetzt.
+![R1&R2](sbv4-1.jpeg) - Im Bild wurde die beiden Relais aktuell auf Abregelung= On gesetzt.
 
 R3: 0/1 - der Status des Self Consumption Realy wird in dieser Zeile als 3. Position angezeigt, R3: "0" = Off, "1"= On
 
