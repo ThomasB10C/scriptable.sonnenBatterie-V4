@@ -101,7 +101,7 @@ Das Widget läuft im Homescreen des iPhones, es wird vom Betriebssystem in feste
 
 Das Widget erzeugt zwei zusätzliche Dateien:
 1. für das Monitoring eine eigene JSON-Datei --> MonitoringData.js, die ausgewählte Betriebsdaten enthält.
-2. Ein Protokoll-Datei --> LogData.js, diese Datei enthält Systemmitteilung und ggf. Fehlermeldungen.
+2. eine Protokoll-Datei --> LogData.js, diese Datei enthält Systemmitteilungen und ggf. Fehlermeldungen.
 
 Die JSON-Datei MonitoringData.js hat den folgenden Aufbau hat:
 
