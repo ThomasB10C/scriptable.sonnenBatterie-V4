@@ -50,19 +50,21 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 3. **TimeoutInterval**: Zeit für den Abbruch der API-Abfrage, wenn keine Antwort zurück kommt, Standard = 1 Sekunde.
 4. **FileManagerMode**: Parameter für die Speicherung der temporären Daten im iPhone-Speicher (LOKAL) oder in der Cloud (iCLOUD), Standard = ICLOUD
 
-## Statuswerte
+### Statuswerte
 
 ### Online-/Offline-status
 Der Offline-Status der Batterie wird mit dem folgenden Bild angezeigt.
 
-![Offline](sbv3-4.jpeg) - dafür wechselt die Anzeige in der obersten Zeile von "Online" auf "⚡️Offline"
+![Offline](sbv3-4.jpeg) 
+- dafür wechselt die Anzeige in der obersten Zeile von "Online" auf "⚡️Offline"
 
 ### OnGrid-/OffGrid-Status
 OnGrid/OffGrid - die Trennung von Stromnetz wird in der vorletzten Zeile angezeigt, die ANzeige wechselt von "Grid:1" auf "Grid:0"
 
 ### Status der Abregelungs-Relais
 R1/R2: 0/1 - das Widget prüft auch den Status des Reduction-Relais R1 und R2, R1/R2: "0" = Off, "1"= On
-![R1&R2](sbv4-1.jpeg) - Im Bild wurde die beiden Relais aktuell auf Abregelung= On gesetzt.
+![R1&R2](sbv4-1.jpeg) 
+- Im Bild wurden die beiden Relais aktuell auf Abregelung= On gesetzt.
 
 ### Status des Self Consumption Relais
 R3: 0/1 - der Status des Self Consumption Realy wird in dieser Zeile als 3. Position angezeigt, R3: "0" = Off, "1"= On
