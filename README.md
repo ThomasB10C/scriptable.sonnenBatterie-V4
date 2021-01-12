@@ -27,7 +27,7 @@ Die folgenden Daten werden im Widget dargestellt:
 - Name des Scriptes
 
 **3. Zeile**
-- **99% ↓↑** - Ladezustand der sonnenBatterie mit Trendanzeige
+- **99% ↑** - Ladezustand der sonnenBatterie mit Trendanzeige bei Ladung= On.
 
 **4. bis 7. Zeile**
 - **Produktion** in kW, Erzeugung der PV-Anlage
@@ -99,6 +99,7 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
 ##### JSON - Monitoring-Datei
 
 ``
+
 {
 "jsonVersion": 1,
 "MonitoringCounter": 5,
@@ -129,6 +130,7 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
     "Pulsing_Green": false
   }
 }
+
 ``
 
 ## Changelog
