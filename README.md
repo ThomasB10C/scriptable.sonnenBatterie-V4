@@ -1,11 +1,13 @@
 #### scriptable.sonnenBatterie V4
 
-# sonnenBatterie-Widget
+# sonnenBatterie-Widget V4
 Widget für die sonnenBatterien Eco 8.0/SB10
 
-![sbv4d](sbv4-2.jpeg) - Übersicht der Daten im Day-Mode
+Übersicht der Daten im Day-Mode
+![sbv4d](sbv4-2.jpeg)
 
-![sbv4n](sbv4-3.jpeg) - Darstellung der Daten im Night-Mode
+Darstellung der Daten im Night-Mode
+![sbv4n](sbv4-3.jpeg)
 
 Download: >>> [hier](SonnenBatterieV2.0.js)
 
@@ -53,25 +55,25 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 
 ### Statuswerte
 
-#### Online-/Offline-status
+**Online-/Offline-status**
 
 Der Offline-Status der Batterie wird mit dem folgenden Bild angezeigt.
 Dafür wechselt die Anzeige in der obersten Zeile im WIdget von "Online" auf "⚡️Offline"
 
 ![Offline](sbv3-4.jpeg)
 
-#### OnGrid-/OffGrid-Status
+**OnGrid-/OffGrid-Status**
 
 OnGrid/OffGrid - die Trennung von Stromnetz wird in der vorletzten Zeile angezeigt, die ANzeige wechselt von "Grid:1" auf "Grid:0"
 
-#### Status der Abregelungs-Relais
+**Status der Abregelungs-Relais**
 
 R1/R2: 0/1 - das Widget prüft auch den Status des Reduction-Relais R1 und R2, R1/R2: "0" = Off, "1"= On.
 Im Bild wurden die beiden Relais aktuell auf Abregelung= On gesetzt.
 
 ![R1&R2](sbv4-1.jpeg)
 
-#### Status des Self Consumption Relais
+**Status des Self Consumption Relais**
 R3: 0/1 - der Status des Self Consumption Realy wird in dieser Zeile als 3. Position angezeigt, R3: "0" = Off, "1"= On
 
 ## API-Schnittstellen
