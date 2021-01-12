@@ -59,27 +59,25 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 
 **Online-/Offline-status**
 
-Der Offline-Status der Batterie wird mit dem folgenden Bild angezeigt.
-Dafür wechselt die Anzeige in der obersten Zeile im WIdget von "Online" auf "⚡️Offline"
+- Der Offline-Status der Batterie wird mit dem folgenden Bild angezeigt.
+- Dafür wechselt die Anzeige in der obersten Zeile im WIdget von "Online" auf "⚡️Offline"
 
 ![Offline](sbv3-4.jpeg)
 
 **OnGrid-/OffGrid-Status**
 
-OnGrid/OffGrid - die Trennung von Stromnetz wird in der vorletzten Zeile angezeigt, 
-die Anzeige wechselt von "Grid:1" auf "Grid:0"
+- OnGrid/OffGrid - die Trennung von Stromnetz wird in der vorletzten Zeile angezeigt. 
+- Die Anzeige wechselt von "Grid:1" auf "Grid:0"
 
 **Status der Abregelungs-Relais**
 
-R1/R2: 0/1 - das Widget prüft auch den Status des Reduction-Relais R1 und R2, 
-R1/R2: "0" = Off, "1"= On.
-Im Bild wurden die beiden Relais aktuell auf Abregelung= On gesetzt.
+- R1/R2: 0/1 - das Widget prüft auch den Status des Reduction-Relais R1 und R2, R1/R2: "0" = Off, "1"= On.
+- Im Bild wurden die beiden Relais aktuell auf Abregelung= On gesetzt.
 
 ![R1&R2](sbv4-1.jpeg)
 
 **Status des Self Consumption Relais**
-R3: 0/1 - der Status des Self Consumption Realy wird in dieser Zeile als 3. Position angezeigt, 
-R3: "0" = Off, "1"= On
+- R3: 0/1 - der Status des Self Consumption Realy wird in dieser Zeile als 3. Position angezeigt, R3: "0" = Off, "1"= On
 
 ## API-Schnittstellen
 
@@ -94,6 +92,8 @@ Die JSON-Daten der folgenden API-Schnittstellen werden verarbeitet:
 ````APIurl4 ="http://xxx.xxx.xxx.xx:8080/api/ios"````
 
 Die ausgelesenen Daten werden sofort für das Monitoring zur Anzeige gebracht, Statuswerte der Batterie werden bewertet und ggf. besonders gekennzeichnet. Eine Langzeitspeicherung der Daten, bspw. in einer Datenbank für die Visualisierung von 24-h-Tagestrends, erfolgt nicht. Nach jedem Lesezyklus der API-Daten werden diese jeweils in einer temporären JSON-Datei gespeichert, diese Daten werden bei Störung der Internetverbindung zur Anzeige gebracht und nach Wiederherstellung der Verbindungen sofort wieder überschrieben. 
+
+![Datenordner](sbv4-4.jpeg)
 
 Das Widget läuft im Homescreen des iPhones, es wird vom Betriebssystem in festen Zeitzyklen gestartet und aktualisiert dann die Daten durch Abfrage der Batterie. Dieser Zeitzyklus kann zurzeit nicht beeinflusst werden. Allerdings startet ein Tippen auf das Widget die Datenabfrage manuell, dann werden die aktuellen Daten der Batterie durch das Widget mit Hilfe der App Scriptable sofort angezeigt und aktualisiert.
 
