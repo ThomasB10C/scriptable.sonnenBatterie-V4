@@ -16,9 +16,9 @@ Die folgenden Daten werden im Widget dargestellt:
 
 **1. Zeile**
 - 🔅/☁️/🌔 - Status für die gestartete Produktion/Erzeugung der PV-Anlage On/Off
-1.  🔅 - sonnig, die PV-Anlage erzeugt Strom
-2.  ☁️ - bewölkt, die PV-Anlage liefert keinen Strom
-3.  🌔 - nachts liefert die PV-Anlage keinen Strom
+🔅 - sonnig, die PV-Anlage erzeugt Strom
+☁️ - bewölkt, die PV-Anlage liefert keinen Strom
+🌔 - nachts liefert die PV-Anlage keinen Strom
 
 - 19:44 - Uhrzeit des letzten Datenupdates der Abfrage der sonnenBatterie (Timestamp)
 - Online/⚡️Offline - Status der Verbindung der sonnenBatterie zum Internet (Status der Eclipse)
