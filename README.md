@@ -54,7 +54,7 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 
 Der Offline-Status der Batterie wird mit dem folgenden Bild angezeigt
 
-![]() - dafür wechselt die Anzeige in der obersten Zeile von "Online" auf "⚡️Offline"
+![Offline](sb3-3.jpeg) - dafür wechselt die Anzeige in der obersten Zeile von "Online" auf "⚡️Offline"
 
 OnGrid/OffGrid - die Trennung von Stromnetz wird in der vorletzten Zeile angezeigt, die ANzeige wechselt von "Grid:1" auf "Grid:0"
 
