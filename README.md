@@ -60,7 +60,8 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 **Online-/Offline-status**
 
 - Der Offline-Status der Batterie wird mit dem folgenden Bild angezeigt.
-- Dafür wechselt die Anzeige in der obersten Zeile im WIdget von "Online" auf "⚡️Offline"
+- Dafür wechselt die Anzeige in der obersten Zeile im Widget von "Online" auf "⚡️Offline".
+- Wenn die Datenübersicht in hellgrauer Schrift angezeigt wird, dann befindet sich Ihr iPhone oder Ihr iPad außerhalb des WLAN-Bereiches, dann können keine aktuellen Live-Daten von der Batterie ausgelesen werden. Nach Rückkehr in den WLAN-Bereich schaltet die Anzeige dann wieder in den Farbmodus um, wenn wieder aktuellen Live-Daten im Zugriff sind.
 
 ![Offline](sbv3-4.jpeg)
 
