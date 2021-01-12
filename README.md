@@ -72,6 +72,7 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
 "jsonVersion": 1,
 
 "MonitoringCounter": 5,
+
   "Timestamp": "2021-01-12 18:37:16",
   "ConnectState": true,
   "SystemState": "OnGrid",
