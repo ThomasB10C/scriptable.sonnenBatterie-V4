@@ -36,8 +36,8 @@ Die folgenden Daten werden im Widget dargestellt:
 - **Ladung/Entladung** in kW, die Anzeige wechselt zwischen Ladung und Entladung, abhängig vom Status
 
 **8. Zeile**
-- **Grid:0/1 ** - Status der Verbindung der sonnenBatterie zum Stromnetz, "0" bedeutet "⚡️OffGrid, "1" bedeutet "OnGrid"
-- **R1**:0/1 **R2**:0/1 - Status der Abregelung der Limitstufe1 (Reduction1) und der Limitstufe2 (Reduction2), 0= Off, 1= On
+- **Grid:0/1** - Status der Verbindung der sonnenBatterie zum Stromnetz, "0" bedeutet "⚡️OffGrid, "1" bedeutet "OnGrid"
+- **R1**:0/1** R2**:0/1 - Status der Abregelung der Limitstufe1 (Reduction1) und der Limitstufe2 (Reduction2), 0= Off, 1= On
 - **R3**:0/1 - Status des Self Consumption Relay, 0= Off, 1= On
 
 **9. Zeile**
@@ -93,13 +93,13 @@ Die JSON-Daten der folgenden API-Schnittstellen werden verarbeitet:
 
 Die ausgelesenen Daten werden sofort für das Monitoring zur Anzeige gebracht, Statuswerte der Batterie werden bewertet und ggf. besonders gekennzeichnet. Eine Langzeitspeicherung der Daten, bspw. in einer Datenbank für die Visualisierung von 24-h-Tagestrends, erfolgt nicht. Nach jedem Lesezyklus der API-Daten werden diese jeweils in einer temporären JSON-Datei gespeichert, diese Daten werden bei Störung der Internetverbindung zur Anzeige gebracht und nach Wiederherstellung der Verbindungen sofort wieder überschrieben. 
 
-![Datenordner](sbv4-4.jpeg)
-
 Das Widget läuft im Homescreen des iPhones, es wird vom Betriebssystem in festen Zeitzyklen gestartet und aktualisiert dann die Daten durch Abfrage der Batterie. Dieser Zeitzyklus kann zurzeit nicht beeinflusst werden. Allerdings startet ein Tippen auf das Widget die Datenabfrage manuell, dann werden die aktuellen Daten der Batterie durch das Widget mit Hilfe der App Scriptable sofort angezeigt und aktualisiert.
 
 Das Widget erzeugt zwei zusätzliche Dateien:
 1. für das Monitoring eine eigene JSON-Datei --> MonitoringData.js, die ausgewählte Betriebsdaten enthält.
 2. Ein Protokoll-Datei --> LogData.js, diese Datei enthält Systemmitteilung und ggf. Fehlermeldungen.
+
+![Datenordner](sbv4-4.jpeg)
 
 Die JSON-Datei MonitoringData.js hat den folgenden Aufbau hat:
 
