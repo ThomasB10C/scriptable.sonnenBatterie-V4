@@ -141,7 +141,7 @@ Die JSON-Datei MonitoringData.js hat den folgenden Aufbau hat:
     "Pulsing_Green": false
   }
 }
-
+````
 
 ## Changelog
 
