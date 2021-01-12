@@ -66,17 +66,20 @@ Dafür wechselt die Anzeige in der obersten Zeile im WIdget von "Online" auf "�
 
 **OnGrid-/OffGrid-Status**
 
-OnGrid/OffGrid - die Trennung von Stromnetz wird in der vorletzten Zeile angezeigt, die ANzeige wechselt von "Grid:1" auf "Grid:0"
+OnGrid/OffGrid - die Trennung von Stromnetz wird in der vorletzten Zeile angezeigt, 
+die Anzeige wechselt von "Grid:1" auf "Grid:0"
 
 **Status der Abregelungs-Relais**
 
-R1/R2: 0/1 - das Widget prüft auch den Status des Reduction-Relais R1 und R2, R1/R2: "0" = Off, "1"= On.
+R1/R2: 0/1 - das Widget prüft auch den Status des Reduction-Relais R1 und R2, 
+R1/R2: "0" = Off, "1"= On.
 Im Bild wurden die beiden Relais aktuell auf Abregelung= On gesetzt.
 
 ![R1&R2](sbv4-1.jpeg)
 
 **Status des Self Consumption Relais**
-R3: 0/1 - der Status des Self Consumption Realy wird in dieser Zeile als 3. Position angezeigt, R3: "0" = Off, "1"= On
+R3: 0/1 - der Status des Self Consumption Realy wird in dieser Zeile als 3. Position angezeigt, 
+R3: "0" = Off, "1"= On
 
 ## API-Schnittstellen
 
@@ -101,10 +104,14 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
 ``
 
 {
-"jsonVersion": 1,
-"MonitoringCounter": 5,
+  "jsonVersion": 1,
+  
+  "MonitoringCounter": 5,
+  
   "Timestamp": "2021-01-12 18:37:16",
+  
   "ConnectState": true,
+  
   "SystemState": "OnGrid",
   "Production_W": 0,
   "Consumption_W": 560,
