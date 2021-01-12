@@ -69,35 +69,34 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
 ##### JSON - Monitoring-Datei
 
 {
-{
-  "jsonVersion": 1,
-  "MonitoringCounter": 5,
-  "Timestamp": "2021-01-12 18:37:16",
-  "ConnectState": true,
-  "SystemState": "OnGrid",
-  "Production_W": 0,
-  "Consumption_W": 560,
-  "Pac_total_W": -5,
-  "GridFeedIn_W": -565,
-  "RSOC": 4,
-  "USOC": 0,
-  "BatteryCharging": false,
-  "BatteryDischarging": false,
-  "cyclecount": "802",
-  "stateofhealth": "93.2",
-  "minimumcelltemperature": "20.85",
-  "maximumcelltemperature": "21.95",
-  "selfConsumptionRelay": 0,
-  "PV_Reduction_state": {
-    "PV_Reduction_1": 0,
-    "PV_Reduction_2": 0
-  },
-  "Eclipse_Led": {
-    "Pulsing_White": true,
-    "Pulsing_Orange": false,
-    "Solid_Red": false,
-    "Pulsing_Green": false
-  }
+    "jsonVersion": 1,
+    "MonitoringCounter": 5,
+    "Timestamp": "2021-01-12 18:37:16",
+    "ConnectState": true,
+    "SystemState": "OnGrid",
+    "Production_W": 0,
+    "Consumption_W": 560,
+    "Pac_total_W": -5,
+    "GridFeedIn_W": -565,
+    "RSOC": 4,
+    "USOC": 0,
+    "BatteryCharging": false,
+    "BatteryDischarging": false,
+    "cyclecount": "802",
+    "stateofhealth": "93.2",
+    "minimumcelltemperature": "20.85",
+    "maximumcelltemperature": "21.95",
+    "selfConsumptionRelay": 0,
+    "PV_Reduction_state": {
+      "PV_Reduction_1": 0,
+      "PV_Reduction_2": 0
+    },
+    "Eclipse_Led": {
+      "Pulsing_White": true,
+      "Pulsing_Orange": false,
+      "Solid_Red": false,
+      "Pulsing_Green": false
+    }
 }
         
 ## Changelog
