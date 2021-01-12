@@ -68,7 +68,7 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 **OnGrid-/OffGrid-Status**
 
 - OnGrid/OffGrid - die Trennung von Stromnetz wird in der vorletzten Zeile angezeigt. 
-- Die Anzeige wechselt von "Grid:1" auf "Grid:0"
+- Die Anzeige wechselt zwischen: "Grid: 1" und "Grid: 0", bei "Grid: 1" ist die Batterie mit dem Stromnetz verbunden.
 
 **Status der Abregelungs-Relais**
 
