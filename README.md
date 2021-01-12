@@ -1,10 +1,11 @@
 #### scriptable.sonnenBatterie V4
-![sbv4d](sbv4-2.jpeg) - Day-Mode
-
-![sbv4n](sbv4-3.jpeg) - Night-Mode
 
 # sonnenBatterie-Widget
 Widget für die sonnenBatterien Eco 8.0/SB10
+
+![sbv4d](sbv4-2.jpeg) - Übersicht der Daten im Day-Mode
+
+![sbv4n](sbv4-3.jpeg) - Darstellung der Daten im Night-Mode
 
 Download: >>> [hier](SonnenBatterieV2.0.js)
 
@@ -52,7 +53,7 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 
 ### Statuswerte
 
-#### Online-/Offline-status
+__Online-/Offline-status__
 Der Offline-Status der Batterie wird mit dem folgenden Bild angezeigt.
 
 ![Offline](sbv3-4.jpeg)  - dafür wechselt die Anzeige in der obersten Zeile von "Online" auf "⚡️Offline"
