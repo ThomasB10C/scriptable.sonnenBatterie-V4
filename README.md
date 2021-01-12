@@ -10,7 +10,7 @@ Widget für die sonnenBatterien Eco 8.0/SB10
 Download: >>> [hier](SonnenBatterieV2.0.js)
 
 ## Kurzbeschreibung
-Das Widget V4.0 dient dem Monitoring der sonnenBatterien Eco 8.0 und SB10. Es fragt ausgewählte Betriebsdaten der sonnenBatterie über API-Schnittstellen der REST-API ab und stellt diese im Widget in einer Übersicht zur Verfügung. Das Widget läuft mit Unterstützung der iPhone-/iPad-App **Scriptable** ab **iOS14**.
+Das Widget sonnenBatterie V4 dient dem Monitoring der sonnenBatterien Eco 8.0 und SB10. Es fragt ausgewählte Betriebsdaten der sonnenBatterie über API-Schnittstellen der REST-API ab und stellt diese im Widget in einer Übersicht zur Verfügung. Das Widget läuft mit Unterstützung der iPhone-/iPad-App **Scriptable** ab **iOS14**.
 
 Die folgenden Daten werden im Widget dargestellt:
 
@@ -53,18 +53,23 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 
 ### Statuswerte
 
-__Online-/Offline-status__
-Der Offline-Status der Batterie wird mit dem folgenden Bild angezeigt.
+#### Online-/Offline-status
 
-![Offline](sbv3-4.jpeg)  - dafür wechselt die Anzeige in der obersten Zeile von "Online" auf "⚡️Offline"
+Der Offline-Status der Batterie wird mit dem folgenden Bild angezeigt.
+Dafür wechselt die Anzeige in der obersten Zeile im WIdget von "Online" auf "⚡️Offline"
+
+![Offline](sbv3-4.jpeg)
 
 #### OnGrid-/OffGrid-Status
+
 OnGrid/OffGrid - die Trennung von Stromnetz wird in der vorletzten Zeile angezeigt, die ANzeige wechselt von "Grid:1" auf "Grid:0"
 
 #### Status der Abregelungs-Relais
-R1/R2: 0/1 - das Widget prüft auch den Status des Reduction-Relais R1 und R2, R1/R2: "0" = Off, "1"= On
 
-![R1&R2](sbv4-1.jpeg)  - Im Bild wurden die beiden Relais aktuell auf Abregelung= On gesetzt.
+R1/R2: 0/1 - das Widget prüft auch den Status des Reduction-Relais R1 und R2, R1/R2: "0" = Off, "1"= On.
+Im Bild wurden die beiden Relais aktuell auf Abregelung= On gesetzt.
+
+![R1&R2](sbv4-1.jpeg)
 
 #### Status des Self Consumption Relais
 R3: 0/1 - der Status des Self Consumption Realy wird in dieser Zeile als 3. Position angezeigt, R3: "0" = Off, "1"= On
@@ -89,7 +94,7 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
 
 ##### JSON - Monitoring-Datei
 
-{
+
 {
   "jsonVersion": 1,
   "MonitoringCounter": 5,
@@ -120,6 +125,7 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
     "Pulsing_Green": false
   }
 }
+``
 
 ## Changelog
 
