@@ -1,5 +1,5 @@
 #### scriptable.sonnenBatterie V4
-![sbv4d](sbv2-4.jpeg) ![sbv4n](sbv2-4.jpeg)
+![sbv4d](sbv4-2.jpeg) ![sbv4n](sbv4-3.jpeg)
 
 # sonnenBatterie-Widget
 Widget für die sonnenBatterien Eco 8.0/SB10
