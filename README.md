@@ -98,9 +98,10 @@ Die ausgelesenen Daten werden sofort für das Monitoring zur Anzeige gebracht, S
 Das Widget läuft im Homescreen des iPhones, es wird vom Betriebssystem in festen Zeitzyklen gestartet und aktualisiert dann die Daten durch Abfrage der Batterie. Dieser Zeitzyklus kann zurzeit nicht beeinflusst werden. Allerdings startet ein Tippen auf das Widget die Datenabfrage manuell, dann werden die aktuellen Daten der Batterie durch das Widget mit Hilfe der App Scriptable sofort angezeigt und aktualisiert.
 
 Das Widget erzeugt zwei zusätzliche Dateien:
-1. für das Monitoring eine eigene JSON-Datei --> MonitoringData.js, die ausgewählte Betriebsdaten enthält. 
+1. für das Monitoring eine eigene JSON-Datei --> MonitoringData.js, die ausgewählte Betriebsdaten enthält.
+2. Ein Protokoll-Datei --> LogData.js, diese Datei enthält Systemmitteilung und ggf. Fehlermeldungen.
 
-Diese Datei hat den folgenden Aufbau hat:
+Die JSON-Datei MonitoringData.js hat den folgenden Aufbau hat:
 
 ##### JSON - Monitoring-Datei --> MonitoringData
 
@@ -139,7 +140,6 @@ Diese Datei hat den folgenden Aufbau hat:
   }
 }
 
-2. Ein Protokoll-Datei --> LogData.js, diese Datei enthält Systemmitteilung und ggf. Fehlermeldungen.
 
 ## Changelog
 
