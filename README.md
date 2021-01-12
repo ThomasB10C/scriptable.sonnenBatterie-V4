@@ -77,7 +77,7 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 ![R1&R2](sbv4-1.jpeg)
 
 **Status des Self Consumption Relais**
-- R3: 0/1 - der Status des Self Consumption Realy wird in dieser Zeile als 3. Position angezeigt, R3: "0" = Off, "1"= On
+- R3: 0/1 - der Status des Self Consumption Relay wird in dieser Zeile als 3. Position angezeigt, R3: "0" = Off, "1"= On
 
 ## API-Schnittstellen
 
