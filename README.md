@@ -98,7 +98,7 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
     "Pulsing_Green": false
   }
 }
-        
+
 ## Changelog
 
 2021/01/12: sonnenBatterie V4.0 (Widget) init
