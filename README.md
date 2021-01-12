@@ -1,5 +1,7 @@
 #### scriptable.sonnenBatterie V4
-![sbv4d](sbv4-2.jpeg) ![sbv4n](sbv4-3.jpeg)
+![sbv4d](sbv4-2.jpeg) - Day-Mode
+
+![sbv4n](sbv4-3.jpeg) - Night-Mode
 
 # sonnenBatterie-Widget
 Widget für die sonnenBatterien Eco 8.0/SB10
@@ -29,7 +31,7 @@ Die folgenden Daten werden im Widget dargestellt:
 - **Ladung/Entladung** in kW, die Anzeige wechselt zwischen Ladung und Entladung, abhängig vom Status
 
 **8. Zeile**
-- **OnGrid/⚡️OffGrid** - Status der Verbindung der sonnenBatterie zum Stromnetz
+- **Grid:0/1 ** - Status der Verbindung der sonnenBatterie zum Stromnetz, "0" bedeutet "⚡️OffGrid, "1" bedeutet "OnGrid"
 - **R1**:0/1 **R2**:0/1 - Status der Abregelung der Limitstufe1 (Reduction1) und der Limitstufe2 (Reduction2), 0= Off, 1= On
 - **R3**:0/1 - Status des Self Consumption Relay, 0= Off, 1= On
 
@@ -47,6 +49,19 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 2. **Token**: Gültiger Token für den Zugriff auf die REST-API der sonnenBatterie. Dieser kann dem Dashboard der Batterie, Menü 'Softwareintegration' entnommen werden
 3. **TimeoutInterval**: Zeit für den Abbruch der API-Abfrage, wenn keine Antwort zurück kommt, Standard = 1 Sekunde.
 4. **FileManagerMode**: Parameter für die Speicherung der temporären Daten im iPhone-Speicher (LOKAL) oder in der Cloud (iCLOUD), Standard = ICLOUD
+
+## Statuswerte
+
+Der Offline-Status der Batterie wird mit dem folgenden Bild angezeigt
+
+![]() - dafür wechselt die Anzeige in der obersten Zeile von "Online" auf "⚡️Offline"
+
+OnGrid/OffGrid - die Trennung von Stromnetz wird in der vorletzten Zeile angezeigt, die ANzeige wechselt von "Grid:1" auf "Grid:0"
+
+R1/R2: 0/1 - das Widget prüft auch den Status des Reduction-Relais R1 und R2, R1/R2: "0" = Off, "1"= On
+![]() - Im Bild wurde die beiden Relais aktuell auf Abregelung= On gesetzt.
+
+R3: 0/1 - der Status des Self Consumption Realy wird in dieser Zeile als 3. Position angezeigt, R3: "0" = Off, "1"= On
 
 ## API-Schnittstellen
 
