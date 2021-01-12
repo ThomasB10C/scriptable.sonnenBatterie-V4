@@ -94,7 +94,7 @@ Das Widget speichert für das Monitoring eine eigene JSON-Datei ab, die den folg
 
 ##### JSON - Monitoring-Datei
 
-
+``
 {
   "jsonVersion": 1,
   "MonitoringCounter": 5,
