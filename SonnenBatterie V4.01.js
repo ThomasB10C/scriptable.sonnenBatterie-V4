@@ -49,8 +49,8 @@ Schrift angezeigt; sobald die Verbindung wieder intakt ist,
 werden die Betriebsdaten wieder im Farbmodus angezeigt.
 */
 
-const IP = "192.168.178.37"
-const Token = "1909150f-aefa-41c5-acbb-0e5e5acb67b3"
+const IP = "999.999.999.99"
+const Token = "xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxx"
 const reqTimeoutInterval = 2 //Zeitinterval bis zum Abbruch der Datenanforderung
 const fileManagerMode = 'ICLOUD'; // default is ICLOUD. If you don't use iCloud Drive use option LOCAL
 
