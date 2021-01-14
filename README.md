@@ -61,7 +61,7 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 
 ### Statuswerte
 
-**Online-/Offline-status**
+**Online-/Offline-Status**
 
 - Der Offline-Status der Batterie wird mit dem folgenden Bild angezeigt.
 - Dafür wechselt die Anzeige in der obersten Zeile im Widget von "Online" auf "⚡️Offline".
@@ -96,9 +96,11 @@ Die JSON-Daten der folgenden API-Schnittstellen werden verarbeitet:
 
 ````APIurl4 ="http://xxx.xxx.xxx.xx:8080/api/ios"```` --> iOSData.js
 
-Die ausgelesenen Daten werden sofort für das Monitoring zur Anzeige gebracht, Statuswerte der Batterie werden bewertet und ggf. besonders gekennzeichnet. Eine Langzeitspeicherung der Daten, bspw. in einer Datenbank für die Visualisierung von 24-h-Tagestrends, erfolgt nicht. Nach jedem Lesezyklus der API-Daten werden diese jeweils in einer temporären JSON-Datei gespeichert, diese Daten werden bei Störung der Internetverbindung zur Anzeige gebracht und nach Wiederherstellung der Verbindungen sofort wieder überschrieben. 
+Die ausgelesenen Daten werden sofort für das Monitoring zur Anzeige gebracht, Statuswerte der Batterie werden bewertet und ggf. besonders gekennzeichnet. Eine Langzeitspeicherung der Daten, bspw. in einer Datenbank für die Visualisierung von 24-h-Tagestrends, erfolgt nicht. 
 
-Das Widget läuft im Homescreen des iPhones, es wird vom Betriebssystem in festen Zeitzyklen gestartet und aktualisiert dann die Daten durch Abfrage der Batterie. Dieser Zeitzyklus kann zurzeit nicht beeinflusst werden. Allerdings startet ein Tippen auf das Widget die Datenabfrage manuell, dann werden die aktuellen Daten der Batterie durch das Widget mit Hilfe der App Scriptable sofort angezeigt und aktualisiert.
+Nach jedem Lesezyklus der API-Daten werden diese jeweils in einer temporären JSON-Datei gespeichert. Diese Daten werden bei Störung der Internetverbindung zur Anzeige gebracht und nach Wiederherstellung der Verbindungen sofort wieder überschrieben. 
+
+Das Widget läuft im Homescreen des iPhones, es wird vom Betriebssystem in festen Zeitzyklen gestartet und aktualisiert. Dieser Zeitzyklus kann zurzeit nicht beeinflusst werden. Allerdings startet ein Tippen auf das Widget die Datenabfrage manuell, dann werden die aktuellen Daten der Batterie durch das Widget mit Hilfe der App Scriptable sofort angezeigt und aktualisiert.
 
 Das Widget erzeugt zwei zusätzliche Dateien:
 1. für das Monitoring eine eigene JSON-Datei --> MonitoringData.js, die ausgewählte Betriebsdaten enthält.
