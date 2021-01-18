@@ -11,7 +11,7 @@ Widget für die sonnenBatterien Eco 8.0/SB10
 
 ![sbv4n](sbv4-3.jpeg)
 
-Download: >>> [hier](SonnenBatterieV4.01.js)
+Download: >>> [hier](SonnenBatterieV4.02.js)
 
 ## Kurzbeschreibung
 Das Widget sonnenBatterie V4 dient dem Monitoring der sonnenBatterien Eco 8.0 und SB10. Es fragt ausgewählte Betriebsdaten der sonnenBatterie über API-Schnittstellen der REST-API ab und stellt diese im Widget in einer Übersicht zur Verfügung. Das Widget läuft mit Unterstützung der iPhone-/iPad-App _Scriptable** ab iOS14_.
@@ -151,4 +151,16 @@ Die JSON-Datei "MonitoringData.js" hat den folgenden Aufbau hat:
 
 ## Changelog
 
-2021/01/12: sonnenBatterie V4.0 (Widget) init
+2021/01/12: sonnenBatterie V4.01 (Widget) init
+- Widget sonnenBatterie V4.01 ist nur für die Nutzung mit 1 Batterie ausgelegt! 
+
+2021/01/18: sonnenBatterie V4.02 (Widget) 
+- Funktionserweiterungen
+  - Das Widget sonnenBatterie V4.02 kann nun für das **Monitoring von mehreren Batterien** genutzt werden. Dafür kann das Widget mehrmals installiert werden. Nach Eingabe der Parameter: IP-Adresse, Token und BatteryNumber (lfd. Batternummer, kann frei vergeben werden, 1-stellig) können nun im HomeScreen die Monitoring-Daten mehrerer sonnenBatterien angezeigt werden.
+   - Bei Nutzung des Widgets für mehrere Batterien wird für jede Batterie jeweils 1 MonitoringData-Datei und 1 LogData-Datei gespeichert. Die Dateien enthalten die Batterienummer im Dateinamen.
+  - Neuer Parameter: **defaultFontSize**: Die Standardschriftgröße kann jetzt unter Parameter geändert werden. Somit kann auf Handys mit einem kleineren Bildschirm die Schriftgröße und damit die Anzeige der Daten angepaßt werden, bei kleineren Bildschirmen verkleinert werden (Standard=10 pt).
+  - Neuer Parameter: **BatteryNumber**: für das Monitoring von mehreren sonnenBatterien kann jetzt durch die Eingabe einer Batternummer (1,2,3,4, ...) das Widget der Batterie zugeordnet werden.
+  - In der Statuszeile (1. Zeile) der Übersicht wird jetzt in der 1. Position der Nachtmodus angezeigt und in der 3. Position wird die Batterienummer als "B1" bzw. für die 2. Batterie als "B2" angezeigt, damit können vom Benutzer die angezeigten Daten den konkreten Batterien zugeordnet werden.
+    
+
+  
