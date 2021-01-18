@@ -87,6 +87,8 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 **Status des Self Consumption Relais**
 - R3: 0/1 - der Status des Self Consumption Relay wird in dieser Zeile als 3. Position angezeigt, R3: "0" = Off, "1"= On
 
+![R3](sbv4-5.jpeg)
+
 ## API-Schnittstellen
 
 Die JSON-Daten der folgenden API-Schnittstellen werden verarbeitet:
