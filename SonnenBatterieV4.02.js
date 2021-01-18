@@ -490,16 +490,12 @@ async function createWidget(items) {
   // Prepare Header Output to Widget
   list.addSpacer(2)
   
+  // Prepare latest Battery data for View
   // Check PV-Production works
   // 🔆☁️🌔
   
   if ( hour >= '19' && hour <= '7' ) { stateProd = '🌔' }
   else if (state.Production_W == 0) { stateProd = '☁️' }
-  else { stateProd = "🔆" }
-  
-  // Prepare latest Battery data for View
-  // Check PV-Production works
-  if (state.Production_W == 0) { stateProd = '☁️' }
   else { stateProd = "🔆" }
     
   // Check OnGrid state
