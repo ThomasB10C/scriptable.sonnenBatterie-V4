@@ -18,13 +18,14 @@ Das Widget sonnenBatterie V4 dient dem Monitoring der sonnenBatterien Eco 8.0 un
 
 Die folgenden Daten werden im Widget dargestellt:
 
-**1. Zeile**
+**Statuszeile - 1. Zeile**
 - 🔅/☁️/🌔 - Status für die gestartete Produktion/Erzeugung der PV-Anlage On/Off
   - 🔅 - sonnig, die PV-Anlage erzeugt Strom
   - ☁️ - bewölkt, die PV-Anlage liefert keinen Strom
   - 🌔 - nachts liefert die PV-Anlage keinen Strom
 
 - 19:44 - Uhrzeit des letzten Datenupdates der Abfrage der sonnenBatterie (Timestamp)
+- B1 - Batterienummer für die Zuordnung der Daten zur Hardware
 - Online/⚡️Offline - Status der Verbindung der sonnenBatterie zum Internet (Status der Eclipse)
 
 **2. Zeile**
