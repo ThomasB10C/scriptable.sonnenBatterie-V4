@@ -11,7 +11,7 @@ Widget für die sonnenBatterien Eco 8.0/SB10
 
 ![sbv4n](sbv4-3.jpeg)
 
-Download: >>> [hier](SonnenBatterieV4.02.js)
+### Download: >>> [hier](SonnenBatterieV4.02.js)
 
 ## Kurzbeschreibung
 Das Widget sonnenBatterie V4 dient dem Monitoring der sonnenBatterien Eco 8.0 und SB10. Es fragt ausgewählte Betriebsdaten der sonnenBatterie über API-Schnittstellen der REST-API ab und stellt diese im Widget in einer Übersicht zur Verfügung. Das Widget läuft mit Unterstützung der iPhone-/iPad-App _Scriptable** ab iOS14_.
@@ -25,7 +25,7 @@ Die folgenden Daten werden im Widget dargestellt:
   - 🌔 - nachts liefert die PV-Anlage keinen Strom
 
 - 19:44 - Uhrzeit des letzten Datenupdates der Abfrage der sonnenBatterie (Timestamp)
-- B1 - Batterienummer für die Zuordnung der Daten zur Hardware
+- B1x - Batterienummer für die Zuordnung der Daten zur Hardware; Bx= B1, B2, B3, ... B9
 - Online/⚡️Offline - Status der Verbindung der sonnenBatterie zum Internet (Status der Eclipse)
 
 **2. Zeile**
