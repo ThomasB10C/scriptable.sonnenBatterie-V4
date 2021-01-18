@@ -119,6 +119,7 @@ Die JSON-Datei "MonitoringData.js" hat den folgenden Aufbau hat:
 {
 
   "jsonVersion": 1,
+  "BatteryNumber": "1",
   "MonitoringCounter": 5,
   "Timestamp": "2021-01-12 18:37:16",
   "ConnectState": true,
