@@ -25,7 +25,7 @@ Die folgenden Daten werden im Widget dargestellt:
   - 🌔 - nachts liefert die PV-Anlage keinen Strom
 
 - 19:44 - Uhrzeit des letzten Datenupdates der Abfrage der sonnenBatterie (Timestamp)
-- B1x - Batterienummer für die Zuordnung der Daten zur Hardware; Bx= B1, B2, B3, ... B9
+- Bx - Batterienummer für die Zuordnung der Daten zur Hardware; Bx= B1, B2, B3, ... B9
 - Online/⚡️Offline - Status der Verbindung der sonnenBatterie zum Internet (Status der Eclipse)
 
 **2. Zeile**
