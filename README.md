@@ -117,12 +117,11 @@ Das Widget erzeugt zwei zusätzliche Dateien:
 
 ![Datenordner](sbv4-4.jpeg)
 
-Die JSON-Datei "MonitoringData.js" hat den folgenden Aufbau hat:
+Die JSON-Datei "MonitoringData.js" wird im Cache gespeichert und hat die folgende Struktur:
 
 ##### JSON - Monitoring-Datei --> MonitoringData
 
 ````
-
 {
 
   "jsonVersion": 1,
