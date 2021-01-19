@@ -164,7 +164,7 @@ Die JSON-Datei "MonitoringData.js" hat den folgenden Aufbau hat:
 
 2021/01/18: sonnenBatterie V4.02 (Widget) 
 - Funktionserweiterungen
-  - **Monitoring von mehreren Batterien:** Das Widget "sonnenBatterie V4.02" kann nun für das Monitoring von mehreren Batterien genutzt werden. Dafür kann das Widget mehrmals installiert werden. Nach Eingabe der Parameter: IP-Adresse, Token und BatteryNumber (lfd. Batternummer, kann frei vergeben werden, 1-stellig) je Batterie können nun im HomeScreen die Monitoring-Daten mehrerer sonnenBatterien angezeigt werden.
+  - **Monitoring für mehrere Batterien:** Das Widget "sonnenBatterie V4.02" kann nun für das Monitoring von mehreren Batterien genutzt werden. Dafür kann das Widget mehrmals installiert werden. Nach Eingabe der Parameter: IP-Adresse, Token und BatteryNumber (lfd. Batternummer, kann frei vergeben werden, 1-stellig) je Batterie können nun im HomeScreen die Monitoring-Daten mehrerer sonnenBatterien angezeigt werden.
    - Bei Nutzung des Widgets für mehrere Batterien wird für jede Batterie jeweils 1 MonitoringData-Datei und 1 LogData-Datei gespeichert; die Dateien enthalten jeweils die Batterienummer im Dateinamen.
   - Neuer Parameter: **defaultFontSize**: Die Standardschriftgröße kann jetzt unter Parameter geändert werden. Somit kann auf kleineren Handy-Bildschirm die Schriftgröße und damit die Anzeige der Daten angepaßt werden, also bei kleineren Displays verkleinert oder bei größeren Displays vergrößert werden (Standard= 10 pt).
   - Neuer Parameter: **BatteryNumber**: für das Monitoring von mehreren sonnenBatterien kann jetzt durch die Eingabe einer Batternummer (1, 2, 3, 4, ... 9) das Widget der Batterie zugeordnet werden.
