@@ -136,7 +136,7 @@ async function createWidget(items) {
   console.log ("IP: " + IP);
   console.log ("Token: " + Token);
   console.log ("BatteryNumber: " + BatteryNumber);
-  console.log ("Create FolderName: " + FolderName);
+  console.log ("Use FolderName: " + FolderName);
   
   // ***************************************************
   // fileManagerMode is LOCAL, create new Folder
