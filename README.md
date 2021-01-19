@@ -79,13 +79,12 @@ Im Script selbst sind in den dafür markierten Zeilen die folgenden Parameter ei
 
 **Status der Abregelungs-Relais**
 
-- R1/R2: 0/1 - das Widget prüft auch den Status des Reduction-Relais R1 und R2, R1/R2: "0" = Off, "1"= On.
-- Im Bild wurden die beiden Relais aktuell auf Abregelung= On gesetzt.
+- R1/R2: 0/1 - das Widget prüft auch den Status des Reduction-Relais R1 und R2, R1/R2: "0" = Off, "1"= On. Im unteren Bild wurden die beiden Relais aktuell auf Abregelung= On gesetzt, die vollständige Abregelung der PV-Anlage ist somit aktiviert worden.
 
 ![R1&R2](sbv4-1.jpeg)
 
 **Status des Self Consumption Relais**
-- R3: 0/1 - der Status des Self Consumption Relay wird in dieser Zeile als 3. Position angezeigt, R3: "0" = Off, "1"= On
+- R3: 0/1 - der Status des Self Consumption Relay wird in dieser Zeile als 3. Position angezeigt, R3: "0" = Off, "1"= On. Im unteren Bild ist das Slef Consumption Relay R3 = On.
 
 ![R3](sbv4-5.jpeg)
 
