@@ -17,7 +17,7 @@ Widget für die sonnenBatterien Eco 8.0/SB10
 Das Widget sonnenBatterie V4 dient dem Monitoring der sonnenBatterie-Serien Eco 8.0 und SB10. Es fragt ausgewählte Betriebsdaten der sonnenBatterie über die API-Schnittstellen der REST-API ab und stellt diese im Widget in einer Übersicht zur Verfügung. Das Widget läuft mit Unterstützung der iPhone-/iPad-App _Scriptable** ab iOS14_.
 
 #### Monitoring mehrerer Batterien
-Nutzer von mehreren sonnenBatterien können das Widget ab der Version 4.02 auch mehrmals installieren. Durch Eingabe der den Batterien zugeordneten IP-Adressen, des Token und einer Batterienummer (1, 2, ... 9) im Script unter Parameter kann man dann die Daten mehrerer Batterien anzeigen lassen. Die eingegebene Batterienummer wird im Widget in der oberen Statuszeile angezeigt, wodurch man die aktuellen Daten der konkreten Batterie zuordnen kann.
+Nutzer von mehreren sonnenBatterien können das Widget ab der Version 4.02 auch mehrmals installieren. Durch Eingabe der den Batterien zugeordneten IP-Adressen, des Token und einer Batterienummer (1, 2, ... 9) im Script unter Parameter kann man dann die Daten mehrerer Batterien anzeigen lassen. Die eingegebene Batterienummer wird im Widget in der oberen Statuszeile angezeigt, wodurch man das Widget der konkreten Batterie zuordnen kann.
 
 Die folgenden Daten werden im Widget dargestellt:
 
