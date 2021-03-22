@@ -5,11 +5,11 @@ Widget für die sonnenBatterien Eco 8.0/SB10
 
 ### Übersicht der Daten im Day-Mode
 
-![sbv402](sb4.02-1c.jpeg)
+![sbv402](sb4.02-2c.jpeg)
 
 ### Darstellung der Daten im Night-Mode
 
-![sbv4n](sb4.02-3C.jpeg)
+![sbv4n](sb4.02-1c.jpeg)
 
 ### Download: >>> [hier](SonnenBatterieV4.02.js)
 
