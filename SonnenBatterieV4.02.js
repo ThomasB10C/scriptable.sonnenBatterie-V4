@@ -64,7 +64,7 @@ const BatteryNumber = '1'; // it's the Battery Number for Multidevice-Installati
 const defaultFontSize = 10; // default Font Size for Output
 const fileManagerMode = 'ICLOUD'; // default is ICLOUD. If you don't use iCloud Drive use option LOCAL
 
-let setLogDataSave = 'yes'; // "yes" activate the LogData-Report, "no" deactivate the it
+let setLogDataSave = 'no'; // "yes" activate the LogData-Report, "no" deactivate the it
 let setApiDataSave = 'no'; // "yes" activate Saving API-Data, "no" deactivate it
 
 // Stop edit from this point
