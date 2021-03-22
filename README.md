@@ -4,6 +4,7 @@
 Widget für die sonnenBatterien Eco 8.0/SB10
 
 ### Übersicht der Daten im Day-Mode
+![sbv4.02](sb4.02 - 2.jpeg)
 
 ![sbv4d](sb4.02 - 2.jpeg)
 
