@@ -403,7 +403,7 @@ async function createWidget(items) {
       EclipseRed = true };
     
     stringPos = data7.indexOf('Pulsing Green');
-    if (data7.substr(stringPos+11,4) == 'true') { 
+    if (data7.substr(stringPos+15,4) == 'true') {
       EclipseGreen = true };
     
     // Check Battery State Online or Offline?
